@@ -404,14 +404,19 @@ head .icon_img{
 border-radius: 50px;}
 
 
-
+/* --------------------------------------- */
+/* --------------------------------------- */
 /* --------------------------------------- */
 /* grid responsiveness css */
 /* --------------------------------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
 
 
 
-/* For tablets (screen width 768px or smaller) */
+/* --------------------------------------- */
+/* media query for tablet devices (920px) */
+/* --------------------------------------- */
 
 @media (max-width: 920px) {
   .container {
@@ -447,12 +452,14 @@ border-radius: 50px;}
   }
   }
 
-/* For mobile (screen width 480px or smaller) */
+
+  
+/* --------------------------------------- */
+/* media query for mobile devices (480px) */
+/* --------------------------------------- */
+
 @media (max-width: 480px) {
   .container {
-    /* margin: 50px 10px 0 0;
-    display: flex;
-    flex-direction: column; */
     width: 95vw;
     height: 200vh;
     grid-template-columns: repeat(7, 1fr);
@@ -490,3 +497,16 @@ border-radius: 50px;}
     font-size: 30px;
   }
 }
+
+
+
+
+
+/* /////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////// */
+/* 
+This is an portfolio project done by tilakgiri01@gmail.com
+The design for the portfolio was takes from instagram account:
+*/
+/* /////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////// */
